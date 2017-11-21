@@ -1,0 +1,20 @@
+name 'zstd'
+org 'amylum'
+
+licenses 'COPYING'
+
+configure_flags(
+  prefix: '/usr'
+)
+
+cflags
+harden
+
+build do
+  make
+  install
+end
+
+test do
+  # TODO: add tests
+end

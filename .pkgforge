@@ -3,16 +3,11 @@ org 'amylum'
 
 licenses 'COPYING'
 
-configure_flags(
-  prefix: '/usr'
-)
-
-cflags
 harden
 
 build do
   make
-  install
+  install 'PREFIX' => '/usr'
 end
 
 test do

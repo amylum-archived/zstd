@@ -8,6 +8,7 @@ item do
   expected do
     github_release
     repo 'facebook/zstd'
+    regex /^v([\d.]+)$/
   end
 
   actual do

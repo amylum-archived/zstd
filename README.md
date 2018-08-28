@@ -1,7 +1,7 @@
 zstd
 ==========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/zstd/master.svg)](https://circleci.com/gh/amylum/zstd)
+[![Build Status](https://img.shields.io/travis/com/amylum/zstd.svg)](https://travis-ci.com/amylum/zstd)
 [![GitHub release](https://img.shields.io/github/release/amylum/zstd.svg)](https://github.com/amylum/zstd/releases)
 [![BSD Licensed](https://img.shields.io/badge/license-BSD-green.svg)](https://tldrlegal.com/license/bsd-3-clause-license-(revised))
 

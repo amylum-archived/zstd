@@ -17,5 +17,5 @@ item do
   end
 
   extend ProspectusPkgforge::DepItems
-  extend ProspectusCircleci::Build.new(my_slug)
+  extend ProspectusTravis::Build.new(my_slug)
 end

@@ -5,8 +5,6 @@ licenses 'COPYING'
 
 harden
 
-patch '1d75697d9b2ca4f431ebbe764400a4b97ab034df.patch'
-
 build do
   make
   install 'PREFIX' => '/usr'
